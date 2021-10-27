@@ -2,7 +2,7 @@ permalink: pretty
 markdown: kramdown
 
 title: U2F, Fido2, USB & Webauthn Authentication Supported Sites
-author: Nitrokey 
+author: Jordan Tuwiner 
 description:
     List of websites and whether or not they support One Time Passwords (OTP) or Universal 2nd Factor (U2F).
 url: https://dongleauth.info
