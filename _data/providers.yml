@@ -4,36 +4,31 @@
 
 providers:
 
-  - name: DigiFlak
-    url: http://www.digiflak.com
-    img: digiflak.png
-    hardware: Yes
-    u2f: Yes
-
-  - name: E-WBM
-    url: https://www.e-wbm.com/
-    img: ewbm.png
+  - name: eWBM TrustKey
+    url: https://trustkey.kr/en/main.form
+    img: ewbm.png 
     hardware: Yes
     u2f: Yes
     otp: No
+    u2f: Yes
 
-  - name: Feitian Technologes Co., Ltd.
+  - name: Feitian Technologes iePass FIDO
     url: https://www.ftsafe.com
     img: ftsafe.png
     otp: Yes
-    u2f: Yes
 
   - name: Hypersecu
-    url: https://hypersecu.com
+    url: https://www.hypersecu.com/products
     img: hypersecu.png
     otp: Yes
     u2f: Yes
 
   - name: Ledger
-    url: https://www.ledgerwallet.com/products
+    url: http://tidd.ly/1aabe9a3
     img: ledger.png
     otp: No
     u2f: Yes
+    class: recommend
 
   - name: Nitrokey
     url: https://www.nitrokey.com
@@ -41,18 +36,11 @@ providers:
     hardware: Yes
     otp: Yes
     u2f: Yes
-    class: recommend
+
 
   - name: OnlyKey
-    url: https://crp.to/p/
+    url: https://onlykey.io/collections/all/products/onlykey-color-secure-password-manager-and-2-factor-token-u2f-yubikey-otp-google-auth-make-password-hacking-obsolete?variant=469626486828
     img: onlykey.png 
-    otp: Yes
-    u2f: Yes
-
-  - name: Secalot
-    url: https://www.secalot.com
-    img: secalot.png
-    hardware: Yes
     otp: Yes
     u2f: Yes
     
@@ -70,30 +58,14 @@ providers:
     u2f: Yes
 
   - name: TREZOR
-    url: https://www.trezor.io
+    url: http://buybitcoinww.co/TREZOR_T
     img: trezor.png
     hardware: Yes
     u2f: Yes
+    class: recommend
 
-  - name: U2F Zero
-    img: u2fzero.png
-    u2f: Yes
-    otp: No
-    url: https://www.u2fzero.com/
-
-  - name: VASCO Data Security
-    img: vasco.png
-    u2f: Yes
-    otp: Yes
-    url: https://www.vasco.com/
-
-  - name: WWPass
-    url: https://www.WWPass.com
-    img: wwpass.png
-    otp: Yes
-
-  - name: Yubico
-    url: https://yubico.com
+  - name: Yubikey
+    url: https://www.pntrac.com/t/2-413173-259259-191575
     img: yubico.png
     u2f: Yes
     otp: Yes
